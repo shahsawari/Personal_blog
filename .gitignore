@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+.next/
+.env*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
