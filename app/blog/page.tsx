@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { and, desc, eq, or, ilike } from 'drizzle-orm'
-import { ArrowRight, Clock3 } from 'lucide-react'
+import { ArrowLeft, Clock3 } from 'lucide-react'
 import { db } from '@/lib/db'
 import { posts } from '@/lib/db/schema'
 
