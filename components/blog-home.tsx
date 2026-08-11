@@ -24,7 +24,7 @@ export function BlogHome({ posts }: { posts: PostCard[] }) {
       <header className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5 md:px-8">
         <Link href="/" className="flex items-center gap-3" aria-label="صفحه اصلی">
           <span className="flex size-10 items-center justify-center rounded-full bg-primary font-mono text-sm text-primary-foreground">ن</span>
-          <span className="font-sans text-sm font-bold tracking-tight">دفتر شبانه · کانال سرو</span>
+          <span className="font-sans text-sm font-bold tracking-tight">نوشته‌های شبانه سرو</span>
         </Link>
         <nav className={`${menu ? 'flex' : 'hidden'} absolute inset-x-4 top-20 z-20 flex-col gap-1 rounded-2xl border bg-card p-3 shadow-xl md:static md:flex md:flex-row md:items-center md:gap-8 md:border-0 md:bg-transparent md:p-0 md:shadow-none`}>
           <Link className="rounded-lg px-3 py-2 text-sm text-foreground/70 hover:bg-muted hover:text-foreground" href="#latest">نوشته‌ها</Link>
