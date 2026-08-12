@@ -53,7 +53,7 @@ export function BlogHome({ posts }: { posts: PostCard[] }) {
 
         <section id="about" className="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-20 md:flex-row md:items-end md:justify-between md:px-8 md:py-28"><div className="max-w-xl"><p className="mb-3 text-sm font-bold text-primary">کمی درباره اینجا</p><h2 className="text-3xl font-bold leading-10 tracking-tight">این وب‌سایت یک دفتر عمومی‌ست؛ جایی برای آزمودن ایده‌ها.</h2><p className="mt-5 leading-8 text-muted-foreground">نوشته‌ها حاصل مکث‌های کوتاه میان کار و زندگی‌اند. اگر چیزی در اینجا برایتان مفید بود، آن را با کسی که دوستش دارید به اشتراک بگذارید.</p></div><Link href="/about" className="inline-flex items-center gap-2 text-sm font-bold text-primary">بیشتر درباره من <ArrowLeft className="size-4" /></Link></section>
       </main>
-      <footer className="border-t border-border/70"><div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between md:px-8"><span>© ۱۴۰۳ · sevo personal blog</span><a href="https://t.me/srvoshna" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">کانال تلگرام: srvoshna@</a></div></footer>
+      <footer className="border-t border-border/70"><div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between md:px-8"><span>© ۱۴۰۵ · sevo personal blog</span><a href="https://t.me/srvoshna" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">کانال تلگرام: srvoshna@</a></div></footer>
     </div>
   )
 }
