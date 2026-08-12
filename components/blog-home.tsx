@@ -24,7 +24,7 @@ export function BlogHome({ posts }: { posts: PostCard[] }) {
       <header className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-5 sm:px-5 md:px-8">
         <Link href="/" className="flex min-w-0 flex-1 items-center gap-3" aria-label="صفحه اصلی">
           <span className="relative flex size-10 shrink-0 overflow-hidden rounded-full border-2 border-primary/70 bg-muted shadow-sm"><Image src="/images/profile-logo.jpeg" alt="تصویر پروفایل سروش" fill sizes="40px" className="object-cover" /></span>
-          <span className="min-w-0 truncate font-sans text-[15px] font-extrabold tracking-tight sm:text-base">نوشته‌های شبانه سرو</span>
+          <span className="min-w-0 truncate font-sans text-[15px] font-extrabold tracking-tight sm:text-base">نوشته‌های شبانه سروش</span>
         </Link>
         <nav className={`${menu ? 'flex' : 'hidden'} absolute inset-x-4 top-20 z-20 flex-col gap-1 rounded-2xl border bg-card p-3 shadow-xl md:static md:flex md:flex-row md:items-center md:gap-8 md:border-0 md:bg-transparent md:p-0 md:shadow-none`}>
           <Link className="rounded-lg px-3 py-2 text-sm text-foreground/70 hover:bg-muted hover:text-foreground" href="#latest">نوشته‌ها</Link>
