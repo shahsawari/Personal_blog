@@ -14,11 +14,16 @@ export default function AdminLoginForm() {
     event.preventDefault()
     setLoading(true)
     setError('')
-    const response = await fetch('/api/admin/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) })
-    const result = await response.json()
-    if (!response.ok) setError(result.error ?? 'ورود انجام نشد.')
-    else router.push('/admin')
-    setLoading(false)
+    try {
+      const response = await fetch('/api/admin/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email.trim(), password }) })
+      const result = await response.json().catch(() => ({}))
+      if (!response.ok) setError(result.error ?? 'ورود انجام نشد.')
+      else { router.push('/admin'); router.refresh() }
+    } catch {
+      setError('ارتباط با سرور برقرار نشد. دوباره تلاش کنید.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (

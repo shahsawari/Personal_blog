@@ -24,7 +24,7 @@ export function BlogHome({ posts }: { posts: PostCard[] }) {
       <header className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-5 sm:px-5 md:px-8">
         <Link href="/" className="flex min-w-0 flex-1 items-center gap-3" aria-label="صفحه اصلی">
           <span className="relative flex size-10 shrink-0 overflow-hidden rounded-full border-2 border-primary/70 bg-muted shadow-sm"><Image src="/images/profile-logo.jpeg" alt="تصویر پروفایل سروش" fill sizes="40px" className="object-cover" /></span>
-          <span className="min-w-0 truncate font-sans text-[15px] font-extrabold tracking-tight sm:text-base">نوشته‌های شبانه سرو</span>
+          <span className="min-w-0 truncate font-sans text-[15px] font-extrabold tracking-tight sm:text-base">نوشته‌های شبانه سروش</span>
         </Link>
         <nav className={`${menu ? 'flex' : 'hidden'} absolute inset-x-4 top-20 z-20 flex-col gap-1 rounded-2xl border bg-card p-3 shadow-xl md:static md:flex md:flex-row md:items-center md:gap-8 md:border-0 md:bg-transparent md:p-0 md:shadow-none`}>
           <Link className="rounded-lg px-3 py-2 text-sm text-foreground/70 hover:bg-muted hover:text-foreground" href="#latest">نوشته‌ها</Link>
@@ -41,10 +41,10 @@ export function BlogHome({ posts }: { posts: PostCard[] }) {
       <main>
         <section className="mx-auto grid max-w-6xl gap-10 px-5 pb-20 pt-14 md:grid-cols-[1.05fr_.95fr] md:items-center md:px-8 md:pb-28 md:pt-24">
           <div>
-            <p className="mb-6 flex items-center gap-2 text-sm text-primary"><span className="size-2 rounded-full bg-primary" /> خوش آمدید، اینجا گوشه‌ای برای فکر کردن است</p>
+            <p className="mb-6 flex items-center gap-2 text-sm text-primary"><span className="size-2 rounded-full bg-primary" /> خوش اومدی؛ اینجا گوشه‌ای برای فکر کردنه</p>
             <h1 className="max-w-xl text-balance font-sans text-4xl font-bold leading-[1.35] tracking-tight md:text-6xl">فکرها، تجربه‌ها و چیزهایی که ارزش <span className="text-primary">به یاد سپردن</span> دارند.</h1>
             <p className="mt-7 max-w-lg text-pretty text-base leading-8 text-muted-foreground md:text-lg">من سروش هستم؛ می‌نویسم تا جهان اطرافم را بهتر بفهمم. درباره زندگی، آدم‌ها و پرسش‌هایی که جواب ساده‌ای ندارند.</p>
-            <div className="mt-9 flex flex-wrap items-center gap-4"><Link href="#latest" className="inline-flex h-12 items-center gap-2 rounded-full bg-primary px-6 text-sm font-bold text-primary-foreground hover:opacity-90">خواندن نوشته‌ها <ArrowLeft className="size-4" /></Link><span className="text-sm text-muted-foreground">هر دو هفته یک یادداشت تازه</span></div>
+            <div className="mt-9 flex flex-wrap items-center gap-4"><Link href="#latest" className="inline-flex h-12 items-center gap-2 rounded-full bg-primary px-6 text-sm font-bold text-primary-foreground hover:opacity-90">خواندن نوشته‌ها <ArrowLeft className="size-4" /></Link></div>
           </div>
           <div className="relative overflow-hidden rounded-[2rem] border bg-muted shadow-sm"><Image src="/images/hero-writing.png" alt="دفتر و قلم روی میز" width={1200} height={900} priority className="aspect-[4/3] w-full object-cover" /></div>
         </section>
@@ -53,7 +53,7 @@ export function BlogHome({ posts }: { posts: PostCard[] }) {
 
         <section id="about" className="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-20 md:flex-row md:items-end md:justify-between md:px-8 md:py-28"><div className="max-w-xl"><p className="mb-3 text-sm font-bold text-primary">کمی درباره اینجا</p><h2 className="text-3xl font-bold leading-10 tracking-tight">این وب‌سایت یک دفتر عمومی‌ست؛ جایی برای آزمودن ایده‌ها.</h2><p className="mt-5 leading-8 text-muted-foreground">نوشته‌ها حاصل مکث‌های کوتاه میان کار و زندگی‌اند. اگر چیزی در اینجا برایتان مفید بود، آن را با کسی که دوستش دارید به اشتراک بگذارید.</p></div><Link href="/about" className="inline-flex items-center gap-2 text-sm font-bold text-primary">بیشتر درباره من <ArrowLeft className="size-4" /></Link></section>
       </main>
-      <footer className="border-t border-border/70"><div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between md:px-8"><span>© ۱۴۰۳ · sevo personal blog</span><a href="https://t.me/srvoshna" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">کانال تلگرام: srvoshna@</a></div></footer>
+      <footer className="border-t border-border/70"><div className="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm text-muted-foreground md:flex-row md:items-center md:justify-between md:px-8"><span>© ۱۴۰۵ · sevo personal blog</span><a href="https://t.me/srvoshna" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">کانال تلگرام: srvoshna@</a></div></footer>
     </div>
   )
 }
