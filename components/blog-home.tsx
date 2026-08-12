@@ -41,10 +41,10 @@ export function BlogHome({ posts }: { posts: PostCard[] }) {
       <main>
         <section className="mx-auto grid max-w-6xl gap-10 px-5 pb-20 pt-14 md:grid-cols-[1.05fr_.95fr] md:items-center md:px-8 md:pb-28 md:pt-24">
           <div>
-            <p className="mb-6 flex items-center gap-2 text-sm text-primary"><span className="size-2 rounded-full bg-primary" /> خوش آمدید، اینجا گوشه‌ای برای فکر کردن است</p>
+            <p className="mb-6 flex items-center gap-2 text-sm text-primary"><span className="size-2 rounded-full bg-primary" /> خوش اومدی؛ اینجا گوشه‌ای برای فکر کردنه</p>
             <h1 className="max-w-xl text-balance font-sans text-4xl font-bold leading-[1.35] tracking-tight md:text-6xl">فکرها، تجربه‌ها و چیزهایی که ارزش <span className="text-primary">به یاد سپردن</span> دارند.</h1>
             <p className="mt-7 max-w-lg text-pretty text-base leading-8 text-muted-foreground md:text-lg">من سروش هستم؛ می‌نویسم تا جهان اطرافم را بهتر بفهمم. درباره زندگی، آدم‌ها و پرسش‌هایی که جواب ساده‌ای ندارند.</p>
-            <div className="mt-9 flex flex-wrap items-center gap-4"><Link href="#latest" className="inline-flex h-12 items-center gap-2 rounded-full bg-primary px-6 text-sm font-bold text-primary-foreground hover:opacity-90">خواندن نوشته‌ها <ArrowLeft className="size-4" /></Link><span className="text-sm text-muted-foreground">هر دو هفته یک یادداشت تازه</span></div>
+            <div className="mt-9 flex flex-wrap items-center gap-4"><Link href="#latest" className="inline-flex h-12 items-center gap-2 rounded-full bg-primary px-6 text-sm font-bold text-primary-foreground hover:opacity-90">خواندن نوشته‌ها <ArrowLeft className="size-4" /></Link></div>
           </div>
           <div className="relative overflow-hidden rounded-[2rem] border bg-muted shadow-sm"><Image src="/images/hero-writing.png" alt="دفتر و قلم روی میز" width={1200} height={900} priority className="aspect-[4/3] w-full object-cover" /></div>
         </section>
